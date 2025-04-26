@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int mai2sn(int argc, char** argv) {
+int main(int argc, char** argv) {
     int rank, size;
     char send_msg[100], recv_msg[100];
     MPI_Status status;
